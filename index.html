@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="www.TheColour.com is the website for The Colour, a clean Oxford blue and white language club."
+    />
+    <title>www.TheColour.com</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="www.TheColour.com home">
+        <span class="brand-mark" aria-hidden="true">TC</span>
+        <span>www.TheColour.com</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-controls="site-nav"
+        aria-expanded="false"
+        data-menu-toggle
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#about">About</a>
+        <a href="#languages">World Languages</a>
+        <a href="#danger">At Risk</a>
+        <a href="#club">Club Life</a>
+        <a href="#join" class="nav-action">Join</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-label="The Colour hero">
+        <canvas id="glyphCanvas" aria-hidden="true"></canvas>
+        <div class="hero-shade" aria-hidden="true"></div>
+
+        <div class="hero-content reveal">
+          <p class="eyebrow">The Colour Language Club</p>
+          <h1>www.TheColour.com</h1>
+          <p class="hero-copy">
+            A clear, curious home for people who learn languages, exchange
+            culture, and see the world in more than one voice.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#join">Join the club</a>
+            <a class="button button-secondary" href="#languages">Explore the data</a>
+          </div>
+        </div>
+
+        <div class="hero-facts reveal" aria-label="Quick language facts">
+          <div>
+            <strong data-count="7170">0</strong>
+            <span>living languages cataloged worldwide</span>
+          </div>
+          <div>
+            <strong data-count="1490">0</strong>
+            <span>million approximate English speakers</span>
+          </div>
+          <div>
+            <strong data-count="3400">0</strong>
+            <span>plus endangered languages tracked</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="Languages word ribbon">
+        <div class="marquee-track">
+          <span>Hello</span>
+          <span>Hola</span>
+          <span>Bonjour</span>
+          <span>你好</span>
+          <span>Namaste</span>
+          <span>Salam</span>
+          <span>Olá</span>
+          <span>Konnichiwa</span>
+          <span>Annyeong</span>
+          <span>Ciao</span>
+          <span>Hallo</span>
+          <span>Hej</span>
+          <span>Hello</span>
+          <span>Hola</span>
+          <span>Bonjour</span>
+          <span>你好</span>
+          <span>Namaste</span>
+          <span>Salam</span>
+        </div>
+      </section>
+
+      <section class="section intro-section" id="about">
+        <div class="container intro-layout">
+          <div class="section-kicker reveal">About The Colour</div>
+          <div class="intro-copy reveal">
+            <h2>A club for language, culture, and bright conversation.</h2>
+            <p>
+              The Colour is built for learners who want more than vocabulary
+              lists. Members meet for conversation practice, cultural evenings,
+              reading circles, pronunciation clinics, and friendly challenges
+              that keep language learning alive.
+            </p>
+          </div>
+          <div class="principles-grid">
+            <article class="principle-card reveal">
+              <span class="card-number">01</span>
+              <h3>Conversation</h3>
+              <p>Real speaking time in small groups, from beginner tables to advanced debates.</p>
+            </article>
+            <article class="principle-card reveal">
+              <span class="card-number">02</span>
+              <h3>Culture</h3>
+              <p>Films, music, food, stories, and traditions that make each language human.</p>
+            </article>
+            <article class="principle-card reveal">
+              <span class="card-number">03</span>
+              <h3>Curiosity</h3>
+              <p>Language facts, linguistics, memory games, and club nights inspired by Mensa-style clarity.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section data-section" id="languages">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-kicker">World Languages</p>
+            <h2>Important language information, made easy to scan.</h2>
+            <p>
+              These figures are rounded because speaker counts change and
+              different surveys count native, second-language, and regional
+              varieties differently.
+            </p>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card reveal">
+              <span class="stat-label">How many languages?</span>
+              <strong data-count="7170">0</strong>
+              <p>About 7,170 living human languages are cataloged worldwide in recent Ethnologue data.</p>
+            </article>
+            <article class="stat-card reveal">
+              <span class="stat-label">Most spoken overall</span>
+              <strong data-count="1490">0</strong>
+              <p>English has roughly 1.49 billion total speakers when first and second-language users are counted.</p>
+            </article>
+            <article class="stat-card reveal">
+              <span class="stat-label">Endangered languages</span>
+              <strong data-count="3400">0</strong>
+              <p>The Endangered Languages Project catalogs more than 3,400 languages under threat.</p>
+            </article>
+          </div>
+
+          <div class="language-panel reveal">
+            <div class="panel-heading">
+              <h3>Approximate total speakers by language</h3>
+              <span>millions of speakers</span>
+            </div>
+            <div class="language-list" aria-label="Language speaker chart">
+              <div class="language-row" style="--bar: 100%">
+                <span>English</span>
+                <div class="bar" aria-hidden="true"><span></span></div>
+                <strong>1,490M</strong>
+              </div>
+              <div class="language-row" style="--bar: 79%">
+                <span>Mandarin Chinese</span>
+                <div class="bar" aria-hidden="true"><span></span></div>
+                <strong>1,180M</strong>
+              </div>
+              <div class="language-row" style="--bar: 41%">
+                <span>Hindi</span>
+                <div class="bar" aria-hidden="true"><span></span></div>
+                <strong>609M</strong>
+              </div>
+              <div class="language-row" style="--bar: 37%">
+                <span>Spanish</span>
+                <div class="bar" aria-hidden="true"><span></span></div>
+                <strong>559M</strong>
+              </div>
+              <div class="language-row" style="--bar: 23%">
+                <span>Arabic</span>
+                <div class="bar" aria-hidden="true"><span></span></div>
+                <strong>335M</strong>
+              </div>
+              <div class="language-row" style="--bar: 21%">
+                <span>French</span>
+                <div class="bar" aria-hidden="true"><span></span></div>
+                <strong>312M</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section danger-section" id="danger">
+        <div class="container danger-layout">
+          <div class="danger-copy reveal">
+            <p class="section-kicker">At Risk</p>
+            <h2>The real danger is disappearance.</h2>
+            <p>
+              A language is not dangerous because people speak it. In language
+              study, the urgent question is which languages are in danger of
+              disappearing. One of the most fragile examples often cited is
+              Njerep, a critically endangered language of Cameroon with only a
+              tiny number of speakers reported in recent years.
+            </p>
+          </div>
+          <div class="danger-meter reveal" aria-label="Endangered language spotlight">
+            <span class="meter-label">Spotlight</span>
+            <strong>Njerep</strong>
+            <p>Critically endangered; reports describe only a few elderly speakers.</p>
+            <div class="meter-track" aria-hidden="true">
+              <span></span>
+            </div>
+            <small>Highest risk: fewer speakers, little daily use, and limited transmission to children.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="section club-section" id="club">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-kicker">Club Life</p>
+            <h2>Structured like a serious club. Warm like a weekly table.</h2>
+          </div>
+
+          <div class="club-grid">
+            <article class="club-card reveal">
+              <h3>Language Tables</h3>
+              <p>Weekly practice rooms for English, Chinese, Spanish, French, Arabic, Japanese, and member-led languages.</p>
+            </article>
+            <article class="club-card reveal">
+              <h3>Culture Nights</h3>
+              <p>Short talks, music swaps, food stories, film clips, and idioms that reveal how people think.</p>
+            </article>
+            <article class="club-card reveal">
+              <h3>Speaker Challenges</h3>
+              <p>Friendly missions that build confidence: introduce yourself, tell a story, and ask better questions.</p>
+            </article>
+            <article class="club-card reveal">
+              <h3>Reading Circle</h3>
+              <p>Compact texts, shared notes, and guided discussion for members who enjoy literature and ideas.</p>
+            </article>
+          </div>
+
+          <div class="events-band reveal">
+            <div>
+              <p class="section-kicker">Next Programme</p>
+              <h3>Meet, speak, compare, repeat.</h3>
+            </div>
+            <ul class="event-list">
+              <li><span>Week 1</span> Global greetings night</li>
+              <li><span>Week 2</span> Pronunciation clinic</li>
+              <li><span>Week 3</span> Endangered languages salon</li>
+              <li><span>Week 4</span> Member debate evening</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section join-section" id="join">
+        <div class="container join-layout">
+          <div class="join-copy reveal">
+            <p class="section-kicker">Join The Colour</p>
+            <h2>Start with the language you have. Leave with more voices.</h2>
+            <p>
+              Use this form to express interest, suggest a language table, or
+              volunteer to host a club session. The page is static, so the form
+              gives an on-page confirmation for now.
+            </p>
+          </div>
+
+          <form class="join-form reveal" data-join-form>
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              Language interest
+              <select name="language" required>
+                <option value="">Choose one</option>
+                <option>English conversation</option>
+                <option>Chinese conversation</option>
+                <option>Spanish conversation</option>
+                <option>French conversation</option>
+                <option>Endangered languages</option>
+                <option>Another language</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Tell us what you would like to learn or lead."></textarea>
+            </label>
+            <button class="button button-primary form-button" type="submit">Send interest</button>
+            <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-layout">
+        <div>
+          <strong>www.TheColour.com</strong>
+          <p>The Colour Language Club</p>
+        </div>
+        <div class="source-links" aria-label="Source links">
+          <span>Sources:</span>
+          <a href="https://www.mensa.org/" target="_blank" rel="noreferrer">Mensa</a>
+          <a href="https://en.wikipedia.org/wiki/Language" target="_blank" rel="noreferrer">Language count</a>
+          <a href="https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers" target="_blank" rel="noreferrer">Speaker counts</a>
+          <a href="https://www.endangeredlanguages.com/about/" target="_blank" rel="noreferrer">Endangered Languages Project</a>
+          <a href="https://en.wikipedia.org/wiki/Njerep_language" target="_blank" rel="noreferrer">Njerep</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
