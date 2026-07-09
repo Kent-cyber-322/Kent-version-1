@@ -854,3 +854,6 @@ textarea {
     transform: none;
   }
 }
+
+.brand-avatar{width:42px;height:42px;border-radius:50%;object-fit:cover;display:block}
+.marquee-track{display:flex;width:max-content;gap:34px;animation:marquee 20s linear infinite}.marquee-group{display:flex;gap:34px;flex-shrink:0}
